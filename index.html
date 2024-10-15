@@ -1,67 +1,150 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Cleaning Fairy</title>
-	</head>
-	<body>
+<head>
+    <title>Cleaning Fairy</title>
+</head>
+<body>
+    <main>
+        <nav id="nav">
+            <h1>
+                <img src="images/Cleaning_fairy.png" alt="Cleaning Fairy Logo">
+                Cleaning Fairy
+            </h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
 
-		<main>
-			<nav id="nav">
-				<h1>Cleaning Fairy</h1>
-				<ul>
-					<li><a href="#">Home</a></a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Contact Us</a></li>
-				</ul>
-			</nav>
+        <section id="banner">
+            <h2>Cleaning Fairy</h2>
+            <p>Let the Cleaning Fairy Work Magic in Your Home!</p>
+        </section>
 
-			<section id="banner">
-				<h2>Cleaning Fairy</h2>
-				<p>Let the Cleaning Fairy Work Magic in Your Home!</p>
-			</section>
+        <section id="about-us">
+            <h1>About Us</h1>
+            <p>At Cleaning Fairy, we believe that a clean home is a happy home. Our mission is to provide quality cleaning services that transform your space into a serene sanctuary.</p>
+            <p>Founded by passionate cleaning enthusiasts, we offer tailored solutions for every home—whether it’s a quick refresh or a thorough deep clean. We pride ourselves on using eco-friendly products that are safe for you and the environment.</p>
+            <p>Let the Cleaning Fairy work her magic and discover the joy of a spotless home!</p>
+        </section>
 
-			<section id="about-us">
-				<h1>About Us</h1>
-				<p>
-					At Cleaning Fairy, we believe that a clean home is a happy home. Our mission is to provide quality cleaning services that transform your space into a serene sanctuary.
-				</p>
-				<p>
-					Founded by passionate cleaning enthusiasts, we offer tailored solutions for every home—whether it’s a quick refresh or a thorough deep clean. We pride ourselves on using eco-friendly products that are safe for you and the environment.
-				</p>
-				<p>
-					Let the Cleaning Fairy work her magic and discover the joy of a spotless home!
-				</p>
-			</section>
+        <section id="services">
+            <header>
+                <h2>Our Services</h2>
+            </header>
+            <div>
+                <p><strong>Deep Cleaning:</strong><br>Experience a thorough transformation with our deep cleaning service. We focus on every corner of your home, ensuring a spotless environment. Perfect for spring cleaning or move-ins!</p>
+                <p><strong>Light Cleaning:</strong><br>Keep your home fresh and tidy with our light cleaning service. Ideal for regular maintenance, we handle dusting, vacuuming, and quick touch-ups to keep your space inviting.<br>Let the Cleaning Fairy make your home shine!</p>
+            </div>
+        </section>
 
-			<section id="services">
-				<header>
-					<h2>Our Services</h2>
-				</header>
-				<div>
-					<p>Deep Cleaning:<br>
-						Experience a thorough transformation with our deep cleaning service. We focus on every corner of your home, ensuring a spotless environment. Perfect for spring cleaning or move-ins!
-					</p>
-					<p>Light Cleaning:<br>
-						Keep your home fresh and tidy with our light cleaning service. Ideal for regular maintenance, we handle dusting, vacuuming, and quick touch-ups to keep your space inviting.<br>
-						Let the Cleaning Fairy make your home shine!
-					</p>
-				</div>
-			</section>
+        <section id="testimonials">
+            <div>
+                <h2>Client Testimonials</h2>
+                <ul>
+                    <li>“Cleaning Fairy transformed my home! It feels like magic every time I walk in. Highly recommend!”<br> — Sarah M.</li>
+                    <li>“I was amazed at the attention to detail during the deep clean. My home has never looked better!”<br> — James T.</li>
+                    <li>“The light cleaning service is perfect for my busy schedule. They make it so easy to keep my home tidy!”<br> — Emily R.</li>
+                </ul>
+            </div>
+        </section>
 
-			<section id="testimonials">
-				<div>
-					<h2>Client Testimonials</h2>
-					<ul>
-						<li>“Cleaning Fairy transformed my home! It feels like magic every time I walk in. Highly recommend!”<br> — Sarah M.</li>
-						<li>“I was amazed at the attention to detail during the deep clean. My home has never looked better!”<br> — James T.</li>
-						<li>“The light cleaning service is perfect for my busy schedule. They make it so easy to keep my home tidy!”<br> — Emily R.</li>
-					</ul>
-				</div>
-			</section>
-
-			<section is="'cta">
-				<h2>Ready to Experience a Sparkling Clean Home?</h2>
-				<a href="#" class="cta-button">Get a Free Estimate</a>				
-			</section>		
-	</body>
+        <section id="cta">
+            <h2>Ready to Experience a Sparkling Clean Home?</h2>
+            <a href="#" class="cta-button">Get a Free Estimate</a>
+        </section>
+    </main>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f8f1e9;
+            color: #472d32;
+        }
+        /* Navigation Bar */
+        #nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1em;
+            background-color: #61afb0; /* Pastel teal */
+            color: #fff;
+        }
+        #nav h1 {
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+        #nav img {
+            height: 50px;
+            margin-right: 10px; /* Space between logo and title */
+            border-radius: 50%; /* Round logo */
+        }
+        #nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+        }
+        #nav ul li {
+            margin-left: 20px;
+        }
+        #nav a {
+            text-decoration: none;
+            color: #f8f1e9; /* Light text */
+        }
+        #nav a:hover {
+            color: #f1b421; /* Gold on hover */
+        }
+        /* Banner Section */
+        #banner {
+            background-color: #f8beaa; /* Soft pink */
+            text-align: center;
+            padding: 2em 0;
+        }
+        #banner h2 {
+            color: #472d32; /* Dark title color */
+        }
+        /* About Us Section */
+        #about-us {
+            background-color: #ecad7c; /* Soft orange */
+            padding: 2em;
+            border-radius: 10px; /* Rounded corners */
+            margin: 1em;
+        }
+        /* Services Section */
+        #services {
+            background-color: #99d7cb; /* Soft mint */
+            padding: 2em;
+            border-radius: 10px;
+            margin: 1em;
+        }
+        /* Testimonials Section */
+        #testimonials {
+            background-color: #fae7c6; /* Light yellow */
+            padding: 2em;
+            border-radius: 10px;
+            margin: 1em;
+        }
+        /* Call to Action Section */
+        #cta {
+            background-color: #f1b421; /* Bright gold */
+            padding: 2em;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .cta-button {
+            background-color: #61afb0; /* Teal button */
+            color: #fff; /* White text */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px; /* Rounded button */
+            cursor: pointer;
+            text-decoration: none; /* Remove underline */
+        }
+        .cta-button:hover {
+            background-color: #f8beaa; /* Light pink on hover */
+        }
+    </style>
+</body>
 </html>
