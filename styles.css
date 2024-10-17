@@ -79,6 +79,13 @@ header {
     color: #f1b421;
 }
 
+.nav-button {
+    padding: 10px;
+    background-color: white;
+    color: gray !important;
+    border-radius: 7px;
+}
+
 footer {
     background-color: #61afb0; 
     text-align: center;
